@@ -37,6 +37,4 @@ function connect() {
     });
 }
 connect();
-app.listen(process.env.PORT, () => {
-    console.log(`server start at port no: ${process.env.PORT}`);
-});
+exports.default = app;

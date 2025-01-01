@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "start": "node build/app.js",
+    "build": "tsc",
+    "vercel build": "echo 'build-skip'",
+    "check": "tsc --project tsconfig.json"
+  },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
     "@types/body-parser": "^1.19.5",
